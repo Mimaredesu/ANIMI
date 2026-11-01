@@ -2,7 +2,7 @@
 
 # ANIMI
 
-**Xem anime trên Android, gọn gàng và không quảng cáo.**
+**Xem anime trên Android, gọn gàng, thuận tiện. dễ nhìn và không quảng cáo.**
 
 [![Tải APK 1.0.3](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.0.3-F23A4B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.3/ANIMI-1.0.3.apk)
 [![Tất cả phiên bản](https://img.shields.io/badge/T%E1%BA%A5t_c%E1%BA%A3_phi%C3%AAn_b%E1%BA%A3n-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases)
@@ -19,7 +19,7 @@
 
 ## Giới thiệu
 
-ANIMI là ứng dụng Android dùng dữ liệu từ AnimeVietSub, với giao diện và trình phát riêng. App không nhúng trang web để xem phim và không chạy quảng cáo của website. Thiết kế bởi Miyacchi.
+ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc xem anime hoàn toàn miễn phí và không quảng cáo với data được lấy trực tiếp từ từ AnimeVietSub thông qua máy bạn cũng như bảo đảm khả năng hoạt động độc lập chỉ cần app có kết nối với internet. Với giao diện và trình phát riêng. App không nhúng trang web để xem phim và cũng như không chạy quảng cáo của website.
 
 ## Có gì mới ở 1.0.3
 
@@ -74,4 +74,4 @@ Yêu cầu Android 8 trở lên.
 
 ---
 
-<sub>ANIMI là ứng dụng độc lập, không phải sản phẩm chính thức của AnimeVietSub. Nội dung và thương hiệu của bên thứ ba thuộc về chủ sở hữu tương ứng.</sub>
+<sub>ANIMI là ứng dụng độc lập, không phải sản phẩm chính thức của AnimeVietSub. Nội dung và thương hiệu của bên thứ ba thuộc về chủ sở hữu tương ứng. Tôi cũng đồng thời tuyên bố từ chối mọi trách nhiệm của toàn bộ nội dung liên quan đến quyền sở hữu trí tuệ tại AnimeVietsub.</sub>
