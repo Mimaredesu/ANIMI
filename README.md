@@ -1,17 +1,17 @@
 <div align="center">
 
-# ANIMI
+<img src="docs/brand/animi-logo.svg" alt="ANIMI" width="380">
 
-**Xem anime trên Android, gọn gàng, thuận tiện. dễ nhìn và không quảng cáo.**
+**Xem anime trên Android, gọn gàng, thuận tiện, dễ nhìn và không quảng cáo.**
 
-[![Tải APK 1.0.6](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.0.6-F23A4B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.6/ANIMI-1.0.6.apk)
+[![Tải APK 1.0.7](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.0.7-E8193B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.7/ANIMI-1.0.7.apk)
 [![Tất cả phiên bản](https://img.shields.io/badge/T%E1%BA%A5t_c%E1%BA%A3_phi%C3%AAn_b%E1%BA%A3n-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases)
-[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.6/SHA256SUMS.txt)
+[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.7/SHA256SUMS.txt)
 [![Báo lỗi](https://img.shields.io/badge/B%C3%A1o_l%E1%BB%97i-Issues-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/issues)
 
 ![Android 8+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Dung lượng](https://img.shields.io/badge/Dung_l%C6%B0%E1%BB%A3ng-4.27_MB-555555?style=flat-square)
-![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.0.6-B5E745?style=flat-square)
+![Dung lượng](https://img.shields.io/badge/Dung_l%C6%B0%E1%BB%A3ng-4.33_MB-555555?style=flat-square)
+![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.0.7-B5E745?style=flat-square)
 
 </div>
 
@@ -19,35 +19,42 @@
 
 ## Giới thiệu
 
-ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc xem anime hoàn toàn miễn phí và không quảng cáo với data được lấy trực tiếp từ từ AnimeVietSub thông qua máy bạn cũng như bảo đảm khả năng hoạt động độc lập chỉ cần app có kết nối với internet. Với giao diện và trình phát riêng. App không nhúng trang web để xem phim và cũng như không chạy quảng cáo của website.
+ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc xem anime hoàn toàn miễn phí và không quảng cáo với data được lấy trực tiếp từ AnimeVietSub thông qua máy bạn cũng như bảo đảm khả năng hoạt động độc lập chỉ cần app có kết nối với internet. Với giao diện và trình phát riêng. App không nhúng trang web để xem phim và cũng như không chạy quảng cáo của website.
 
-## Có gì mới ở 1.0.6
+## Có gì mới ở 1.0.7
 
-### Nhanh và mượt hơn
-Khắc phục lỗi “Máy chủ DU từ chối tải video” khi mở tập.** Trước đây, DU có thể trả danh sách phát nhưng từ chối cấp khóa giải mã, khiến video không lên hình dù cùng tập vẫn xem được trên web, đã xử lý bypass và giải mã video.
+### Diện mạo mới
+- Logo mèo ANIMI và chữ **ANIMI.** mới ở thanh trên cùng, icon ứng dụng và icon thông báo.
+- Banner **Tiêu điểm** hiện tóm tắt và thể loại thật của từng anime.
 
-### Cải thiện trình phát
-- **Rút ngắn bước “Đang làm mới liên kết video…”**. ANIMI chủ động làm mới phiên DU trước khi mở trình phát. Nếu phiên đầu gặp lỗi khóa, người xem thường không còn phải chờ trình phát dừng rồi khởi động lại.
+### Cộng đồng
+- **Hồ sơ thành viên:** chạm tên người bình luận › **Xem hồ sơ** để xem huy hiệu, ngày tham gia, anime đang theo dõi và bình luận gần đây.
+- **Bình luận ngay trong trình phát:** nút bình luận ở góc phải trên, đọc bình luận và trả lời mà không cần thoát video.
+- **Mở đúng bình luận:** chạm thông báo trả lời/nhắc đến sẽ mở phim và làm nổi bật đúng bình luận đó.
 
-### Kiểm thử
-- Trên giả lập Android, bản QA phát được tập 01 và 02 của **Magical★Explorer**. Cả hai tập đều lên hình ngay ở lần chuẩn bị đầu tiên và tiếp tục phát sau khi tua đến **2:00**.
-- 199 bài kiểm thử tự động của bản phát hành đã đạt.
+### Thông báo và sửa lỗi
+- Thẻ thông báo theo thứ tự **Tất cả · Đang theo dõi · Bình luận · Mới cập nhật · Sắp chiếu**, kèm số lượng; nút thao tác gọn, không còn bị cắt viền.
+- **Tiếp tục xem** không còn hiện trùng một anime hai lần.
+- Bình luận tải nhanh hơn khi vừa thoát trình phát.
+
+Chi tiết và phạm vi kiểm thử: [Release notes v1.0.7](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.0.7).
 
 ## Tính năng chính
 
 | Nhóm | Bạn có thể làm gì |
 |---|---|
 | **Khám phá** | Tìm kiếm gợi ý khi gõ, bộ lọc, lịch chiếu, bảng xếp hạng, sắp chiếu, thư viện A–Z, chọn phim ngẫu nhiên |
-| **Trình phát** | Tua nhanh, giữ để đổi tốc độ, bỏ qua OP/ED, tự chuyển tập, khóa màn hình, Ambient light, PiP |
+| **Trình phát** | Tua nhanh, giữ để đổi tốc độ, bỏ qua OP/ED, tự chuyển tập, khóa màn hình, Ambient light, PiP, xem bình luận |
 | **Tài khoản** | Đăng nhập tài khoản nguồn, tủ phim, đánh giá, bình luận, thông báo trả lời và nhắc đến |
+| **Cộng đồng** | Hồ sơ thành viên, bình luận theo tập, mở thẳng tới bình luận từ thông báo |
 | **Cá nhân hóa** | Gợi ý AniSense chạy ngay trên máy, lịch sử xem, xem tiếp, cài đặt và trợ năng |
 | **Ngoại tuyến** | Tải tập về, lưu mã hóa và chỉ phát trong app |
 
 ## Cài đặt
 
-1. Tải [ANIMI-1.0.6.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.6/ANIMI-1.0.6.apk) về điện thoại.
+1. Tải [ANIMI-1.0.7.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.7/ANIMI-1.0.7.apk) về điện thoại.
 2. Mở file và cho phép cài đặt nếu Android hỏi.
-3. Nếu đã có bản cũ, cài đè lên để giữ dữ liệu.
+3. Nếu đã có bản cũ, cài đè lên để giữ dữ liệu. Bản đã cài cũng có thể cập nhật trong **Cài đặt › Về ANIMI › Cập nhật ANIMI**.
 
 Yêu cầu Android 8 trở lên.
 
@@ -60,9 +67,9 @@ Yêu cầu Android 8 trở lên.
 
 ## Kiểm tra file
 
-| File | SHA-256 |
-|---|---|
-| `ANIMI-1.0.6.apk` | `93eb2bfe51978b6070a6b598e5fd6a0828fab519d58a641a01a274d28272322c` |
+| File | Kích thước | SHA-256 |
+|---|---|---|
+| `ANIMI-1.0.7.apk` | 4.541.479 byte | `cfdf951b55fdd9d8a54e0a70c9d1e113394f45c8bbf5ae6a4ffed2ab234b0572` |
 
 ---
 
