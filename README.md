@@ -4,14 +4,14 @@
 
 **Xem anime trên Android, gọn gàng, thuận tiện, dễ nhìn và không quảng cáo.**
 
-[![Tải APK 1.0.8](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.0.8-E8193B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.8/ANIMI-1.0.8.apk)
+[![Tải APK 1.0.9](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.0.9-E8193B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.9/ANIMI-1.0.9.apk)
 [![Tất cả phiên bản](https://img.shields.io/badge/T%E1%BA%A5t_c%E1%BA%A3_phi%C3%AAn_b%E1%BA%A3n-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases)
-[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.8/SHA256SUMS.txt)
+[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.9/SHA256SUMS.txt)
 [![Báo lỗi](https://img.shields.io/badge/B%C3%A1o_l%E1%BB%97i-Issues-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/issues)
 
 ![Android 8+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Dung lượng](https://img.shields.io/badge/Dung_l%C6%B0%E1%BB%A3ng-4.38_MB-555555?style=flat-square)
-![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.0.8-B5E745?style=flat-square)
+![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.0.9-B5E745?style=flat-square)
 
 </div>
 
@@ -20,6 +20,21 @@
 ## Giới thiệu
 
 ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc xem anime hoàn toàn miễn phí và không quảng cáo với data được lấy trực tiếp từ AnimeVietSub thông qua máy bạn cũng như bảo đảm khả năng hoạt động độc lập chỉ cần app có kết nối với internet. Với giao diện và trình phát riêng. App không nhúng trang web để xem phim và cũng như không chạy quảng cáo của website.
+
+## Có gì mới ở 1.0.9
+
+### Kết nối ổn định hơn
+- **DNS qua HTTPS ngay trong app** (Cài đặt › Kết nối nguồn › DNS): mặc định Tự động, dùng Cloudflare DoH, lỗi thì quay về DNS của máy. Không đổi DNS điện thoại, không cần VPN khi nhà mạng chỉ chặn bằng DNS.
+- **Kiểm tra DNS và kết nối:** cho biết lỗi nằm ở đâu: phân giải tên miền, kết nối, bắt tay bảo mật hay phản hồi của nguồn.
+- **Proxy tùy chọn** do bạn tự nhập (HTTP). App không cung cấp proxy; khi proxy lỗi app báo lỗi chứ không tự đi đường khác.
+- Khi mạng chặn ở mức sâu hơn DNS, app nói rõ và gợi ý thử mạng khác hoặc bật WARP/VPN. App đi theo VPN bạn bật trên điện thoại.
+
+### Sửa lỗi
+- Không còn kẹt ở **"Đang kiểm tra…"** khi nguồn không vào được: trang phim hiện lý do và nút **Thử lại**; lỗi kết nối được báo sau khoảng 8 giây thay vì 15–30 giây.
+- Khi đang dùng dữ liệu đã lưu, khung thông báo có nút **Thử lại**; đổi mạng hoặc bật VPN rồi bấm sẽ thử kết nối lại thật.
+- Tự chuyển sang tên miền mới của nguồn (`animevietsub.zone`).
+
+Chi tiết và phạm vi kiểm thử: [Release notes v1.0.9](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.0.9).
 
 ## Có gì mới ở 1.0.8
 
@@ -37,7 +52,7 @@ ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc
 - Anime đã lưu trên website giờ hiện đúng **đã lưu** trong app, kể cả khi web đổi tên miền.
 - Hàng thẻ cuộn ngang (T2…CN, bộ lọc) không còn bật về đầu khi chạm.
 
-Chi tiết và phạm vi kiểm thử: [Release notes v1.0.8](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.0.8).
+Ghi chú đầy đủ: [Release notes v1.0.8](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.0.8).
 
 ## Ảnh màn hình
 
@@ -69,7 +84,7 @@ Chi tiết và phạm vi kiểm thử: [Release notes v1.0.8](https://github.com
 
 ## Cài đặt
 
-1. Tải [ANIMI-1.0.8.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.8/ANIMI-1.0.8.apk) về điện thoại.
+1. Tải [ANIMI-1.0.9.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.0.9/ANIMI-1.0.9.apk) về điện thoại.
 2. Mở file và cho phép cài đặt nếu Android hỏi.
 3. Nếu đã có bản cũ, cài đè lên để giữ dữ liệu. Bản đã cài cũng có thể cập nhật trong **Cài đặt › Về ANIMI › Cập nhật ANIMI**.
 
@@ -85,7 +100,8 @@ ANIMI không có máy chủ riêng: mọi yêu cầu đi thẳng từ điện th
 - **MyAnimeList:** mã định danh và đối chiếu mùa/part, lấy qua AniList.
 - **GitHub Releases:** kiểm tra và tải bản cập nhật trong app.
 - **YouTube:** mở trailer bằng ứng dụng YouTube khi bạn chọn.
-- Thư viện mã nguồn mở: AndroidX Media3, AndroidX WebKit (Apache 2.0), jsoup (MIT), font Be Vietnam Pro (SIL OFL 1.1). Xem trong app: **Cài đặt › Về ANIMI › Ghi công**.
+- **Cloudflare 1.1.1.1 / Google Public DNS:** phân giải tên miền qua HTTPS theo lựa chọn DNS trong Cài đặt. Chỉ gửi tên máy chủ cần phân giải.
+- Thư viện mã nguồn mở: AndroidX Media3, AndroidX WebKit, OkHttp, Okio, Kotlin standard library (Apache 2.0), jsoup (MIT), font Be Vietnam Pro (SIL OFL 1.1). Xem trong app: **Cài đặt › Về ANIMI › Ghi công**.
 
 ANIMI không liên kết hay được xác nhận bởi các dịch vụ trên.
 
@@ -95,13 +111,14 @@ ANIMI không liên kết hay được xác nhận bởi các dịch vụ trên.
 - Thông báo nền là kiểm tra định kỳ, không phải đẩy tức thì.
 - Lịch sử chỉ có trên web không kèm mốc thời gian, nên app không biết bạn đã xem hết tập đó chưa.
 - Lịch dự đoán là ước tính từ lịch sử đăng tập, không phải lịch chính thức; điểm bạn tự chấm trên website chưa hiện được trong app.
-- App phụ thuộc vào website nguồn và server video, nên có thể lỗi khi nguồn thay đổi hoặc chặn kết nối.
+- App phụ thuộc vào website nguồn và server video, nên có thể lỗi khi nguồn thay đổi hoặc chặn kết nối. DNS qua HTTPS chỉ sửa được chặn DNS; khi mạng ngắt kết nối tới nguồn cần mạng khác hoặc WARP/VPN, và qua một số VPN nguồn có thể đòi xác minh trình duyệt mà app không tự vượt.
+- Chưa hỗ trợ Encrypted Client Hello (ECH): Android chỉ có tính năng này từ Android 17.
 
 ## Kiểm tra file
 
 | File | Kích thước | SHA-256 |
 |---|---|---|
-| `ANIMI-1.0.8.apk` | 4.597.543 byte | `9135bdc1c32a68b208c064991768295e6e2f373be85a7364edf618f4ee832352` |
+| `ANIMI-1.0.9.apk` | 5.058.858 byte | `b60241cecf768fd91f15bdeaf2d65c16c3630588043de7c935f326ccca3c8e1a` |
 
 ---
 
