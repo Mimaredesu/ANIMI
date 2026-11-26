@@ -4,14 +4,14 @@
 
 **Xem anime trên Android, gọn gàng, thuận tiện, dễ nhìn và không quảng cáo.**
 
-[![Tải APK 1.3.0](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.3.0-E8193B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.0/ANIMI-1.3.0.apk)
+[![Tải APK 1.3.1](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.3.1-E8193B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.1/ANIMI-1.3.1.apk)
 [![Tất cả phiên bản](https://img.shields.io/badge/T%E1%BA%A5t_c%E1%BA%A3_phi%C3%AAn_b%E1%BA%A3n-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases)
-[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.0/SHA256SUMS.txt)
+[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.1/SHA256SUMS.txt)
 [![Báo lỗi](https://img.shields.io/badge/B%C3%A1o_l%E1%BB%97i-Issues-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/issues)
 
 ![Android 8+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Dung lượng](https://img.shields.io/badge/Dung_l%C6%B0%E1%BB%A3ng-4.87_MB-555555?style=flat-square)
-![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.3.0-B5E745?style=flat-square)
+![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.3.1-B5E745?style=flat-square)
 
 </div>
 
@@ -20,6 +20,13 @@
 ## Giới thiệu
 
 ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc xem anime hoàn toàn miễn phí và không quảng cáo với data được lấy trực tiếp từ AnimeVietSub thông qua máy bạn cũng như bảo đảm khả năng hoạt động độc lập chỉ cần app có kết nối với internet. Với giao diện và trình phát riêng. App không nhúng trang web để xem phim và cũng như không chạy quảng cáo của website.
+
+## Có gì mới ở 1.3.1
+
+- **Hết đen màn hình giữa chừng:** liên kết DU hết hạn giữa tập giờ được nối ngầm trong lúc video vẫn phát, không còn khựng đen kèm vòng xoay.
+- **Luôn giữ khung hình** khi phải tải lại hoặc khi quay lại app từ màn hình chính/đa nhiệm.
+
+Chi tiết và phạm vi kiểm thử: [Release notes v1.3.1](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.3.1).
 
 ## Có gì mới ở 1.3.0
 
@@ -39,22 +46,6 @@ ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc
 - **Ambient light** hết nhấp nháy ở 0 ms, mịn hơn, sáng hơn, phủ kín tới mép màn hình và giảm ám màu logo/watermark.
 
 Chi tiết và phạm vi kiểm thử: [Release notes v1.3.0](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.3.0).
-
-## Có gì mới ở 1.2.0
-
-### Sửa lỗi
-- **DU phát lại được:** nguồn đã chuyển trình phát DU sang máy chủ mới; bản 1.1.0 không tìm thấy video DU. 1.2.0 nhận máy chủ mới và tự theo nếu nguồn đổi tiếp.
-
-### Chọn máy chủ DU / HDX(ADS)
-- **Chọn máy chủ** trong Cài đặt › Trình phát (DU mặc định) hoặc ngay khi xem: Tùy chọn phát › Máy chủ. Đổi máy chủ thì xem tiếp đúng chỗ.
-- **DU lỗi thì tự chuyển sang HDX** cho tập đó; tập sau quay về DU. Tắt được trong Cài đặt.
-- **HDX phát 360p–720p**, tua được, tự nạp trước để giảm giật, mất mạng ngắn thì tự phát tiếp.
-
-### Tiện hơn
-- **Bảng Tùy chọn phát mới:** chia nhóm, hiện giá trị đang dùng, bật/tắt Tự chuyển tập ngay tại chỗ.
-- **Mạng ổn định hơn** trên mạng không có IPv6 thật.
-
-Chi tiết và phạm vi kiểm thử: [Release notes v1.2.0](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.2.0).
 
 ## Ảnh màn hình
 
@@ -87,7 +78,7 @@ Chi tiết và phạm vi kiểm thử: [Release notes v1.2.0](https://github.com
 
 ## Cài đặt
 
-1. Tải [ANIMI-1.3.0.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.0/ANIMI-1.3.0.apk) về điện thoại.
+1. Tải [ANIMI-1.3.1.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.1/ANIMI-1.3.1.apk) về điện thoại.
 2. Mở file và cho phép cài đặt nếu Android hỏi.
 3. Nếu đã có bản cũ, cài đè lên để giữ dữ liệu. Bản đã cài cũng có thể cập nhật trong **Cài đặt › Về ANIMI › Cập nhật ANIMI**.
 
@@ -126,7 +117,7 @@ ANIMI không liên kết hay được xác nhận bởi các dịch vụ trên.
 
 | File | Kích thước | SHA-256 |
 |---|---|---|
-| `ANIMI-1.3.0.apk` | 5.105.650 byte | `a2bc758495c20cf4beffddc8e22a46782422a55227f5726a30b1f0bce301493a` |
+| `ANIMI-1.3.1.apk` | 5.107.870 byte | `a0f0b01986f431418336b8b35fa3fd44f97793aa17af40ededd8de2cd0e140d7` |
 
 ---
 
