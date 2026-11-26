@@ -4,14 +4,14 @@
 
 **Xem anime trên Android, gọn gàng, thuận tiện, dễ nhìn và không quảng cáo.**
 
-[![Tải APK 1.2.0](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.2.0-E8193B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.2.0/ANIMI-1.2.0.apk)
+[![Tải APK 1.3.0](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.3.0-E8193B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.0/ANIMI-1.3.0.apk)
 [![Tất cả phiên bản](https://img.shields.io/badge/T%E1%BA%A5t_c%E1%BA%A3_phi%C3%AAn_b%E1%BA%A3n-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases)
-[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.2.0/SHA256SUMS.txt)
+[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.0/SHA256SUMS.txt)
 [![Báo lỗi](https://img.shields.io/badge/B%C3%A1o_l%E1%BB%97i-Issues-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/issues)
 
 ![Android 8+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Dung lượng](https://img.shields.io/badge/Dung_l%C6%B0%E1%BB%A3ng-4.86_MB-555555?style=flat-square)
-![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.2.0-B5E745?style=flat-square)
+![Dung lượng](https://img.shields.io/badge/Dung_l%C6%B0%E1%BB%A3ng-4.87_MB-555555?style=flat-square)
+![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.3.0-B5E745?style=flat-square)
 
 </div>
 
@@ -20,6 +20,25 @@
 ## Giới thiệu
 
 ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc xem anime hoàn toàn miễn phí và không quảng cáo với data được lấy trực tiếp từ AnimeVietSub thông qua máy bạn cũng như bảo đảm khả năng hoạt động độc lập chỉ cần app có kết nối với internet. Với giao diện và trình phát riêng. App không nhúng trang web để xem phim và cũng như không chạy quảng cáo của website.
+
+## Có gì mới ở 1.3.0
+
+### Trình phát không còn màn hình đen
+- **Giữ khung hình cuối** khi chuyển tập, đổi máy chủ, báo mạng hay báo lỗi; khung được làm mờ và tối theo mức độ. Chuyển tập có hiệu ứng mờ rồi hiện dần tập mới.
+- **Thẻ lỗi nổi** thay cho nền đen.
+
+### DU và HDX thông minh hơn
+- **DU lỗi:** thẻ góc trên phải đếm 5 giây, chọn "Chuyển ngay" hoặc "Ở lại DU"; không bấm gì thì tự chuyển sang HDX.
+- **DU chậm:** chỉ gợi ý HDX, không tự chuyển; DU chạy lại thì thẻ tự ẩn.
+- **HDX mở ở độ nét cao nhất** trừ khi đang tiết kiệm dữ liệu di động.
+- **Làm mới liên kết DU giữa chừng** không còn làm gián đoạn: giữ hình và phát tiếp đúng chỗ.
+
+### Tiện hơn
+- **Bình luận khi xem** chỉ ẩn bình luận của các tập sau để tránh spoil; có nhãn tập, avatar, trả lời lồng nhau.
+- **Bảng tốc độ và chọn tập gọn hơn**; giữ để tua 2× chỉ hiện tốc độ.
+- **Ambient light** hết nhấp nháy ở 0 ms, mịn hơn, sáng hơn, phủ kín tới mép màn hình và giảm ám màu logo/watermark.
+
+Chi tiết và phạm vi kiểm thử: [Release notes v1.3.0](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.3.0).
 
 ## Có gì mới ở 1.2.0
 
@@ -36,23 +55,6 @@ ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc
 - **Mạng ổn định hơn** trên mạng không có IPv6 thật.
 
 Chi tiết và phạm vi kiểm thử: [Release notes v1.2.0](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.2.0).
-
-## Có gì mới ở 1.1.0
-
-### AniSense thành "bộ não" của app
-- **Trang chủ kiểu app xem phim:** các hàng Tập mới từ bộ bạn theo dõi, Dành riêng cho bạn, Vì bạn đã xem…, Vì bạn thích…, Anime mùa này, Trong danh sách của bạn, Xem lại. Mỗi thẻ ghi lý do.
-- **Lịch dự đoán nhanh hơn khoảng 3 lần**, có thanh tiến trình 0–100% khi quét.
-- **Nhắc tập đúng lúc:** tới giờ dự đoán, app kiểm tra các bộ bạn đang xem và báo ngay khi có tập mới.
-- **Thống kê xem:** giờ xem theo tuần/tháng, thể loại và bộ xem nhiều nhất, chuỗi ngày xem.
-- **Chẩn đoán sự cố:** kiểm tra từng phần của app và xuất file nhật ký (đã ẩn thông tin nhạy cảm) để gửi khi cần hỗ trợ.
-
-### Tiện hơn
-- **Dán link phim hoặc link tập** từ web AnimeVietSub vào ô tìm kiếm để mở thẳng.
-- **Sao lưu và khôi phục** dữ liệu trên máy ra một tệp (Cài đặt › Dữ liệu và tải xuống).
-- **Tiết kiệm dữ liệu 4G/5G:** app hỏi khi bạn dùng dữ liệu di động; các việc chạy nền chờ Wi-Fi.
-- **Phát lên TV:** trình phát › Thêm › Phát lên TV, phản chiếu màn hình lên Chromecast hoặc smart TV.
-
-Chi tiết và phạm vi kiểm thử: [Release notes v1.1.0](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.1.0).
 
 ## Ảnh màn hình
 
@@ -75,7 +77,7 @@ Chi tiết và phạm vi kiểm thử: [Release notes v1.1.0](https://github.com
 | Nhóm | Bạn có thể làm gì |
 |---|---|
 | **Khám phá** | Tìm kiếm gợi ý khi gõ, dán link phim/tập để mở thẳng, bộ lọc, lịch chiếu, bảng xếp hạng, sắp chiếu, thư viện A–Z, chọn phim ngẫu nhiên |
-| **Trình phát** | Chọn máy chủ DU hoặc HDX(ADS) và tự chuyển sang HDX khi DU lỗi, tua nhanh, giữ để đổi tốc độ, bỏ qua OP/ED, tự chuyển tập, khóa màn hình, Ambient light, PiP, phát lên TV, xem bình luận |
+| **Trình phát** | Chọn máy chủ DU hoặc HDX(ADS), DU lỗi thì hỏi rồi chuyển HDX, DU chậm thì gợi ý, giữ khung hình khi chuyển tập/lỗi, tua nhanh, giữ để đổi tốc độ, bỏ qua OP/ED, tự chuyển tập, khóa màn hình, Ambient light, PiP, phát lên TV, xem bình luận |
 | **Tài khoản** | Đăng nhập tài khoản nguồn, tủ phim, đánh giá, bình luận, thông báo trả lời và nhắc đến |
 | **Cộng đồng** | Hồ sơ thành viên, bình luận theo tập, mở thẳng tới bình luận từ thông báo |
 | **Lịch chiếu** | Lịch nguồn theo ngày, AniSense đoán giờ tập mới lên, giờ phát sóng tại Nhật, biểu đồ theo giờ |
@@ -85,7 +87,7 @@ Chi tiết và phạm vi kiểm thử: [Release notes v1.1.0](https://github.com
 
 ## Cài đặt
 
-1. Tải [ANIMI-1.2.0.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.2.0/ANIMI-1.2.0.apk) về điện thoại.
+1. Tải [ANIMI-1.3.0.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.0/ANIMI-1.3.0.apk) về điện thoại.
 2. Mở file và cho phép cài đặt nếu Android hỏi.
 3. Nếu đã có bản cũ, cài đè lên để giữ dữ liệu. Bản đã cài cũng có thể cập nhật trong **Cài đặt › Về ANIMI › Cập nhật ANIMI**.
 
@@ -113,6 +115,7 @@ ANIMI không liên kết hay được xác nhận bởi các dịch vụ trên.
 - Thông báo nền là kiểm tra định kỳ, không phải đẩy tức thì; nhắc tập AniSense hẹn theo giờ dự đoán nhưng Android vẫn có thể lùi để tiết kiệm pin.
 - Máy chủ DU hiện chỉ có một mức chất lượng, nên tiết kiệm dữ liệu không giảm được dung lượng video DU.
 - HDX chưa hỗ trợ bản 1080p (dùng AV1); tua tới đoạn HDX chưa ai xem có thể chậm vài giây; tải tập về máy vẫn dùng DU.
+- Lần mở trình phát đầu tiên chưa có khung hình nên vẫn nền đen khi tải; DU hỏng hẳn mất khoảng 1 phút mới tới thẻ đếm ngược (thẻ gợi ý HDX hiện sau 10 giây nạp đệm).
 - Phát lên TV là phản chiếu màn hình: điện thoại phải mở, chất lượng phụ thuộc Wi-Fi; chưa có Chromecast trực tiếp.
 - Lịch sử chỉ có trên web không kèm mốc thời gian, nên app không biết bạn đã xem hết tập đó chưa.
 - Lịch dự đoán là ước tính từ lịch sử đăng tập, không phải lịch chính thức; điểm bạn tự chấm trên website chưa hiện được trong app.
@@ -123,7 +126,7 @@ ANIMI không liên kết hay được xác nhận bởi các dịch vụ trên.
 
 | File | Kích thước | SHA-256 |
 |---|---|---|
-| `ANIMI-1.2.0.apk` | 5.095.934 byte | `bc3cbbdabc8d3abf651c2c788e002ba1fb76073529430679f3e5a242323012ce` |
+| `ANIMI-1.3.0.apk` | 5.105.650 byte | `a2bc758495c20cf4beffddc8e22a46782422a55227f5726a30b1f0bce301493a` |
 
 ---
 
