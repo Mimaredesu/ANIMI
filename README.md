@@ -4,14 +4,14 @@
 
 **Xem anime trên Android, gọn gàng, thuận tiện, dễ nhìn và không quảng cáo.**
 
-[![Tải APK 1.3.1](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.3.1-E8193B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.1/ANIMI-1.3.1.apk)
+[![Tải APK 1.3.2](https://img.shields.io/badge/T%E1%BA%A3i_APK-1.3.2-E8193B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.2/ANIMI-1.3.2.apk)
 [![Tất cả phiên bản](https://img.shields.io/badge/T%E1%BA%A5t_c%E1%BA%A3_phi%C3%AAn_b%E1%BA%A3n-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/releases)
-[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.1/SHA256SUMS.txt)
+[![Mã kiểm tra](https://img.shields.io/badge/M%C3%A3_ki%E1%BB%83m_tra-SHA--256-B5E745?style=for-the-badge&logoColor=1d1d1d)](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.2/SHA256SUMS.txt)
 [![Báo lỗi](https://img.shields.io/badge/B%C3%A1o_l%E1%BB%97i-Issues-262626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mimaredesu/ANIMI/issues)
 
 ![Android 8+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Dung lượng](https://img.shields.io/badge/Dung_l%C6%B0%E1%BB%A3ng-4.87_MB-555555?style=flat-square)
-![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.3.1-B5E745?style=flat-square)
+![Phiên bản](https://img.shields.io/badge/Phi%C3%AAn_b%E1%BA%A3n-1.3.2-B5E745?style=flat-square)
 
 </div>
 
@@ -21,31 +21,19 @@
 
 ANIMI là ứng dụng Android được thiết kế để tối ưu hóa việc xem anime hoàn toàn miễn phí và không quảng cáo với data được lấy trực tiếp từ AnimeVietSub thông qua máy bạn cũng như bảo đảm khả năng hoạt động độc lập chỉ cần app có kết nối với internet. Với giao diện và trình phát riêng. App không nhúng trang web để xem phim và cũng như không chạy quảng cáo của website.
 
+## Có gì mới ở 1.3.2
+
+- **Giảm ám màu logo, watermark hoạt động thật:** Ambient light tự nhận ra logo/watermark từ chính video (ở vị trí, kích thước, màu nào cũng được) và bỏ chúng khi tính màu viền, nên không ám màu kể cả khi Độ mờ 0%.
+- **Hết rung ở độ trễ 0 ms:** chuyển cảnh theo gần như ngay, dao động nhỏ được làm mượt.
+
+Chi tiết và phạm vi kiểm thử: [Release notes v1.3.2](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.3.2).
+
 ## Có gì mới ở 1.3.1
 
 - **Hết đen màn hình giữa chừng:** liên kết DU hết hạn giữa tập giờ được nối ngầm trong lúc video vẫn phát, không còn khựng đen kèm vòng xoay.
 - **Luôn giữ khung hình** khi phải tải lại hoặc khi quay lại app từ màn hình chính/đa nhiệm.
 
 Chi tiết và phạm vi kiểm thử: [Release notes v1.3.1](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.3.1).
-
-## Có gì mới ở 1.3.0
-
-### Trình phát không còn màn hình đen
-- **Giữ khung hình cuối** khi chuyển tập, đổi máy chủ, báo mạng hay báo lỗi; khung được làm mờ và tối theo mức độ. Chuyển tập có hiệu ứng mờ rồi hiện dần tập mới.
-- **Thẻ lỗi nổi** thay cho nền đen.
-
-### DU và HDX thông minh hơn
-- **DU lỗi:** thẻ góc trên phải đếm 5 giây, chọn "Chuyển ngay" hoặc "Ở lại DU"; không bấm gì thì tự chuyển sang HDX.
-- **DU chậm:** chỉ gợi ý HDX, không tự chuyển; DU chạy lại thì thẻ tự ẩn.
-- **HDX mở ở độ nét cao nhất** trừ khi đang tiết kiệm dữ liệu di động.
-- **Làm mới liên kết DU giữa chừng** không còn làm gián đoạn: giữ hình và phát tiếp đúng chỗ.
-
-### Tiện hơn
-- **Bình luận khi xem** chỉ ẩn bình luận của các tập sau để tránh spoil; có nhãn tập, avatar, trả lời lồng nhau.
-- **Bảng tốc độ và chọn tập gọn hơn**; giữ để tua 2× chỉ hiện tốc độ.
-- **Ambient light** hết nhấp nháy ở 0 ms, mịn hơn, sáng hơn, phủ kín tới mép màn hình và giảm ám màu logo/watermark.
-
-Chi tiết và phạm vi kiểm thử: [Release notes v1.3.0](https://github.com/Mimaredesu/ANIMI/releases/tag/v1.3.0).
 
 ## Ảnh màn hình
 
@@ -78,7 +66,7 @@ Chi tiết và phạm vi kiểm thử: [Release notes v1.3.0](https://github.com
 
 ## Cài đặt
 
-1. Tải [ANIMI-1.3.1.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.1/ANIMI-1.3.1.apk) về điện thoại.
+1. Tải [ANIMI-1.3.2.apk](https://github.com/Mimaredesu/ANIMI/releases/download/v1.3.2/ANIMI-1.3.2.apk) về điện thoại.
 2. Mở file và cho phép cài đặt nếu Android hỏi.
 3. Nếu đã có bản cũ, cài đè lên để giữ dữ liệu. Bản đã cài cũng có thể cập nhật trong **Cài đặt › Về ANIMI › Cập nhật ANIMI**.
 
@@ -107,6 +95,7 @@ ANIMI không liên kết hay được xác nhận bởi các dịch vụ trên.
 - Máy chủ DU hiện chỉ có một mức chất lượng, nên tiết kiệm dữ liệu không giảm được dung lượng video DU.
 - HDX chưa hỗ trợ bản 1080p (dùng AV1); tua tới đoạn HDX chưa ai xem có thể chậm vài giây; tải tập về máy vẫn dùng DU.
 - Lần mở trình phát đầu tiên chưa có khung hình nên vẫn nền đen khi tải; DU hỏng hẳn mất khoảng 1 phút mới tới thẻ đếm ngược (thẻ gợi ý HDX hiện sau 10 giây nạp đệm).
+- Ambient light cần khoảng 10–15 giây đầu mỗi lần mở phim để học vị trí logo; logo chuyển động hoặc watermark gần như trong suốt khó nhận ra.
 - Phát lên TV là phản chiếu màn hình: điện thoại phải mở, chất lượng phụ thuộc Wi-Fi; chưa có Chromecast trực tiếp.
 - Lịch sử chỉ có trên web không kèm mốc thời gian, nên app không biết bạn đã xem hết tập đó chưa.
 - Lịch dự đoán là ước tính từ lịch sử đăng tập, không phải lịch chính thức; điểm bạn tự chấm trên website chưa hiện được trong app.
@@ -117,7 +106,7 @@ ANIMI không liên kết hay được xác nhận bởi các dịch vụ trên.
 
 | File | Kích thước | SHA-256 |
 |---|---|---|
-| `ANIMI-1.3.1.apk` | 5.107.870 byte | `a0f0b01986f431418336b8b35fa3fd44f97793aa17af40ededd8de2cd0e140d7` |
+| `ANIMI-1.3.2.apk` | 5.109.630 byte | `fa3e585d4d1272563cafc15613e03c1cb866932ff4d0dc6da522971296fcc74e` |
 
 ---
 
